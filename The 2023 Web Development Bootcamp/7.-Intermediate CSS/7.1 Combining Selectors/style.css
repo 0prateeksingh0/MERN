@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/* Group -> apply to both selector*/
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child -> apply to direct child left side*/
+.box > p {
+    color: firebrick;
+}
+
+/* Descendant -> apply a descendant of left side */
+.box li {
+    color:blue;
+}
+
+/* Chaining -> where all selctor are ture*/
+li.done {
+    color: seagreen;
+}
+
+/* Combining Combiners*/
+ul p.done {
+    font-size: 0.5rem;
+}
