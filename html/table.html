@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Tables-->
+    <table>
+        <caption>My First Table</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>January</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>400</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>800</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <!-- Coloring in table-->
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: aqua;">
+            <col span="1" style="background-color: greenyellow;">
+            <col span="1" style="background-color: red;">
+            
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2">State of Health</th>
+                <th colspan="2">Fasting value</th>
+                <th>after eating</th>
+            </tr>
+            <tr>
+                <td>minimum</td>
+                <td>maximum</td>
+                <td>2 hr after eating</td>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-diab</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>NA</td>
+            <td>More than 200</td>
+        </tfoot>
+    </table>
+</body>
+</html>
