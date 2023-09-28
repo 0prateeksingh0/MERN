@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element Selector 
+        p {
+            color: red;
+            font-size: larger;
+        }
+        h1 {
+            background-color: aqua;
+        } */
+
+        /* Class Selector
+         .green {
+            color: green;
+        }
+        .blue {
+            color: blue;
+        }
+        .small {
+            font-size: small;
+        }
+        .big {
+            font-size: larger;
+        } */
+
+        /* ID Selector 
+        #first-button {
+            color: aqua;
+        }
+        #intro {
+            background-color: antiquewhite;
+        } */
+
+        /* Pseudo-classes Selector
+         button:hover {
+            color: aqua;
+        }
+        a:hover {
+            color: red;
+        }
+        .ink-color:hover {
+            color: black;
+        }
+        #lin-id:hover {
+            color: blue;
+        }*/
+
+
+        /* Universal Selector
+        * [lang^="en"] {
+            color: green;
+        }
+        *.warning {
+            color: red;
+        }
+        *#maincontent {
+            border: 1px solid blue;
+        }
+        .floating {
+            float: left;
+        }
+        /* automatically clear the next sibling after a floating element 
+        .floating + * {
+            clear: left;
+        } */
+
+        /* Multiple Selector/Grouping Selector
+        #first, #second {
+            color: yellowgreen;
+        } */
+
+        /* Nesting Selector
+                * {
+            font-size: 2rem;
+        }
+        article {
+            background-color: red;
+            & p{
+                color: white;
+                & a{
+                    color: gray;
+                }
+            }
+        } 
+        
+        article {
+            background-color: red;
+            & p {
+                color: blue;
+            }
+            
+        }*/
+
+        /* Attribute Selector
+        a[href] {
+            color: red;
+            font-weight: bold;
+        }
+        a[target="_blank"] {
+            color: blue;
+        }
+        a[href^="https"] {
+            font-size: 150%;
+        }
+        a[href$="org"] {
+            text-transform: uppercase;
+        }
+        a[href*="oo"] {
+            float: right;
+        } */
+
+        /* Specificity 
+        important means wohi show hoga
+        otherwise style > ID > Class > Tag*/
+        p {
+            color: blue !important;
+        }
+        .para-sf {
+            color: orange;
+        }
+        #black-para {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Specificity -->
+    <p  class="para-sf" id="black-para" style="color: aqua;">I love anime and manhwa but still stuck with my study .</p>
+
+    <!-- Element Selector 
+    <p>This is para</p>
+    <h1>This is my first heading.</h1>
+    <p>Feeling suck.</p> -->
+
+
+    <!-- Class Selector  .
+    <p class="green">abc</p>
+    <p class="green">pqr</p>
+    <p class="yellow">xyz</p>
+    <h1 class="small">abcd</h1>
+    <h2 class="small">efgh</h2>
+    <h3 class="small">ijkl</h3>
+    <h4 class="big">mno</h4>
+    <h5 class="big">pqr</h5>
+    <h6 class="big">xyz</h6> -->
+
+
+    <!-- ID Selector   #
+    <button id="first-button">Submit</button>
+    <pre id="intro"> “Hero? No! We Are Pirates! 
+        I Love Heroes But I Don’t Wanna Be One!"</pre>  # -->
+
+    
+    <!-- Pseudo-classes Selector
+    <button>Submit</button>
+    <br>
+    <a class="link-color" id="lin-id" href="https://www.youtube.com"   >Buy me</a>-->
+
+
+    <!-- Universal Selector  *
+    <p class="warning">
+        <span lang="en-us">A green span</span> in a red paragraph.
+    </p>
+    <p id="maincontent" lang="en-gb">
+        <span class="warning">A red span</span> in a green paragraph.
+    </p -->
+
+
+    <!-- Multiple Selector/Grouping Selector
+    <p id="first">Luffy</p>
+    <h1 id="second">Me The king</h1>   -->
+
+    
+    <!-- Nesting Selector
+    <article id="article">
+        <p>This is some dummy text</p>
+        <p class="red">
+            This is has the class red
+            <a href="#">Link</a>
+        </p>
+    </article>
+    <section>
+        <p>This is some dummy text u dummy</p>
+    </section>-->
+
+
+    <!--  Attribute Selector
+    <ul>
+        <li><a href="https://www.wikipedia,org">Wikipedia Link</a></li>
+        <li><a href="http://www.google.com">Google link</a></li>
+        <li><a href="https://github.com" target="_blank"]>Github link</a></li>
+      </ul>-->
+
+</body>
+</html>

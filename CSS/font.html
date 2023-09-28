@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+    /* Font-family */
+    .p1 {
+        font-family: "Times New Roman", Times, serif;
+      }
+      
+      .p2 {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .p3 {
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+
+      /* Font-weight */
+      p.normal {
+        font-weight: normal;
+      }
+      
+      p.light {
+        font-weight: lighter;
+      }
+      
+      p.thick {
+        font-weight: bold;
+      }
+      
+      p.thicker {
+        font-weight: 900;
+      }
+
+      /* Font-style */
+      p.a {
+        font-style: normal;
+    }
+    p.b {
+        font-style: italic;
+    }
+    p.c {
+        font-style: oblique;
+    }
+
+    /* text-emphasis */
+    p.ex1 {
+        text-emphasis: filled; 
+    }
+    p.ex2 {
+        text-emphasis: open; 
+    }
+    p.ex3 {
+        text-emphasis: double-circle red; 
+    }
+    p.ex4 {
+        text-emphasis: triangle blue; 
+    }
+    /* !Imprtance */
+    /* #myid {
+        background-color: blue;
+    }
+    .myclass {
+        background-color: gray;
+    }
+    p {
+        background-color: red !important;
+    } */
+
+    /*External Fonts */
+    .heroo {
+        font-family: "Sofia", sans-serif;
+    }
+    
+    @font-face {
+        font-family: "Bitstream Vera Serif Bold";
+        src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+      }
+
+      body {
+        font-family: "Bitstream Vera Serif Bold", serif;
+      }
+      
+    </style>
+</head>
+<body>
+    <!-- font-family -->
+    <h1>CSS font-family</h1>
+    <p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+    <p class="p2">This is a paragraph, shown in the Arial font.</p>
+    <p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
+
+
+    <!-- font-weight -->
+    <h1>The font-weight Property</h1>
+    <p class="normal">This is a paragraph.</p>
+    <p class="light">This is a paragraph.</p>
+    <p class="thick">This is a paragraph.</p>
+    <p class="thicker">This is a paragraph.</p>
+
+
+    <!-- font-style -->
+    <h1>The font-style Property</h1>
+    <p class="a">This is a paragraph, normal.</p>
+    <p class="b">This is a paragraph, italic.</p>
+    <p class="c">This is a paragraph, oblique.</p>
+
+    
+    <!-- text-emphasis -->
+    <h1>The text-emphasis Property</h1>
+    <p class="ex1">This is some text.</p>
+    <p class="ex2">This is some text.</p>
+    <p class="ex3">This is some text.</p>
+    <p class="ex4">This is some text.</p>
+
+    
+    <!-- Imprtance -->
+    <p>This is some text in a paragraph.</p>
+    <p class="myclass">This is some text in a paragraph.</p>
+    <p id="myid">This is some text in a paragraph.</p>
+
+    <!-- Adding external fonts
+    Search font in google then there are two ways to add it.
+    1. <link>            2.
+    if one font-family is not working goes to next as in consectuive which is written on the css code -->
+    <p class="heroo">    London. Michaelmas term lately over, and the Lord Chancellor sitting in Lincoln's Inn Hall. Implacable 
+        November weather. As much mud in the streets as if the waters had but newly retired from the face of the earth,
+         and it would not be wonderful to meet a Megalosaurus, forty feet long or so, waddling like an elephantine 
+         lizard up Holborn Hill.</p>
+</body>
+</html>
