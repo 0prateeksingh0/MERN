@@ -1,0 +1,22 @@
+.box {
+    background-color: aqua;
+    margin: 200px;
+
+    /* translate()
+    transform: translate(50px, 20px);
+    translateX(100px) --> X-axis
+    translatey(50px)  --> Y-axis */
+
+    /* rotate
+    transform: rotate(-45deg); */
+
+    transform: scale(2,5);
+    /* scale()
+    transform: scaleX(100); --> horizontal scaling (zooming horizontally)
+    transform: scaleY(200); --> vertical scaling (zooming verticaly) */
+
+    transform: skew(20deg);
+    /* skew() 
+    tild krna */
+}
+
